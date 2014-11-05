@@ -43,14 +43,14 @@ validation, and among highly skilled Principals, relatively unskilled Randoms, a
 mechanical MAs.
 
 For example, a Principal needs a UI component for creating a to-do item. She begins writing some
-high-level documentation for this component. An MA integrated into her IDE suggests an open source
-component (written by a Peer) with documentation textually similar to what the Principal has written
-so far, and with quality scores and open-source license that meet the Principal's filters. The
-Principal examines the open source component and decides that although it doesn't perfectly fit her
-needs, it is a good starting point. She clones the component, edits its documentation to describe a
-variation that she wants, flags it as needing assistance with 3 assistance value points, and moves
-on to something else. (She doesn't change the 12-hour deadline that she uses as her default for
-assistance.)
+high-level documentation for this component. An MA integrated into her development environment
+suggests an open source component (written by a Peer) with documentation textually similar to what
+the Principal has written so far, and with quality scores and open-source license that meet the
+Principal's filters. The Principal examines the open source component and decides that although it
+doesn't perfectly fit her needs, it is a good starting point. She clones the component, edits its
+documentation to describe a variation that she wants, flags it as needing assistance with 3
+assistance value points, and moves on to something else. (She doesn't change the 12-hour deadline
+that she uses as her default for assistance.)
 
 A Freelancer who has worked with the original component before and who meets the Principal's
 freelance reputation filter (and whose principal reputation filter was met by the Principal), is
@@ -81,17 +81,17 @@ the changes, and he likes them, so he incorporates them into his own version.
 We apply Bret Victor's ideas about "creating by reacting" and "recomposition" by automatically
 pulling in open-source code examples that meet the developer's needs, much as chess software pulls
 in examples of public games that proceeded from the current position. Machine Assistants (MAs)
-integrated into the IDE will find or generate code to meet the developer's needs, much as chess
-software shows potential lines of play and their likely outcomes. For example, when the developer
-starts writing a signature and contract for a function, an MA will suggest existing functions in
-open-source code that have similar signatures and contracts. It will decorate each suggested
-function with its quality score and the developer's reputation and achievement scores.
+integrated into the development environment will find or generate code to meet the developer's
+needs, much as chess software shows potential lines of play and their likely outcomes. For example,
+there might be a simple gesture that the developer uses in the context of their source code to
+search the open-source world for a suitable package, class, method, function, or code snippet for a
+particular purpose. We call this "Code Mining".
 
-An MA will even suggest implementations of the function that combine small numbers of existing
-functions to provide the specified signature and meet the contract. The developer can navigate to
-examples in public source code that have combined those functions in that way. The intended feel is
-much like how chess software shows references to published games that have proceeded from the
-current board position or from a potential line of play.
+An MA might even show how to combine small numbers of existing functions to meet a particular goal
+in context of the developer's source code. It would then show examples in open source where those
+functions have been combined in a similar way. The intended feel is much like how chess software
+shows a potential strong line of play from the existing board position, either by reference to
+published games of strong players or by its own analysis.
 
 
 License
