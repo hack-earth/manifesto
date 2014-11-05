@@ -100,3 +100,8 @@ License
 All artifacts in this "manifesto" project (whether so marked or not) are Copyright (c) Dean Thompson and
 MIT licensed.
 
+
+History
+-------
+For background on the thought history of the World Wide Hack, and possibly some related ideas to
+resurrect, see the [Cy repo](https://github.com/Cy-Hub/Cy).
