@@ -3,21 +3,7 @@ The World Wide Hack
 
 The World Wide Hack is an effort to re-imagine the craft of programming, with
 inspiration from Bret Victor's [Learnable Programming](http://worrydream.com/LearnableProgramming/) and
-with a focus on frictionless collaboration.
-
-As a more specific focal point, the World Wide Hack intends to improve our craft to effectively
-support the new wave of computing technology:
-
-* ubiquitous computing
-* gestural interfaces 
-* augmented reality including virtual reality and telepresence
-* massive parallelism
-
-These are the problems of writing code that lives in the world instead of behind a keyboard and monitor.
-We desperately need better programming paradigms and tools for this because right now only a tiny number
-of expert programmers with special skills can do it. Our lives were transformed when web technologies
-enabled millions of people to write useful code behind a keyboard and monitor. Now we have to enable
-millions of people with varied skills and interests to write code that lives in the world.
+with a focus on immediate feedback and frictionless collaboration.
 
 Our approach is to view software development as a collaborative search through the space of useful
 software components by people and machines who take on the following five roles:
