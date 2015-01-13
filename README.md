@@ -79,6 +79,20 @@ functions have been combined in a similar way. The intended feel is much like ho
 shows a potential strong line of play from the existing board position, either by reference to
 published games of strong players or by its own analysis.
 
+Over time, the following capabilities will be needed to support the World Wide Hack:
+
+environment, data, and workflow needed to support the World Wide Hack:
+
+- Reputation management and quality scoring.
+- Freelancing and crowd-sourcing.
+- Micropayments.
+- API contracts and testing.
+- Publishing, versioning, and dependency management.
+- Open-source license management.
+- Searching for components and functions that work in a particular context.
+- Development-mode capture and playback of component and function inputs and outputs.
+
+The idea is to build these as open APIs supporting multiple languages, promoting the integration of those APIs into as many IDEs as feasible.
 
 License
 -------
