@@ -11,7 +11,7 @@ discussions of techniques and problems.
 
 Our tools have not kept up. Google is still our main portal to this social world. Most programmers,
 if they are breaking new ground for themselves at all, use Google almost as heavily as they use
-their IDEs or text editors. They Google constantly for libraries, API documentations, suggested 
+their IDEs or text editors. They Google constantly for libraries, API documentation, suggested 
 approaches, and problem resolutions. But every search is a dumb text search, divorced from the
 programmer's context. The programmer tosses in keywords to provide a little context -- the language
 they are working in, the main package name that might be relevant, and so on. The search results
