@@ -5,8 +5,36 @@ The World Wide Hack is an effort to re-imagine the craft of programming, with
 inspiration from Bret Victor's [Learnable Programming](http://worrydream.com/LearnableProgramming/) and
 with a focus on immediate feedback and frictionless collaboration.
 
-Our approach is to view software development as a collaborative search through the space of useful
-software components by people and machines who take on the following five roles:
+Programming has become an extremely social activity. Environments like GitHub and Stack Exchange, 
+woven together by Google, give us instant access to open-source libraries, sample code, and
+discussions of techniques and problems.
+
+Our tools have not kept up. Google is still our main portal to this social world. Most programmers,
+if they are breaking new ground for themselves at all, use Google almost as heavily as they use
+their IDEs or text editors. They Google constantly for libraries, API documentations, suggested 
+approaches, and problem resolutions. But every search is a dumb text search, divorced from the
+programmer's context. The programmer tosses in keywords to provide a little context -- the language
+they are working in, the main package name that might be relevant, and so on. The search results
+are workable because of Google's powerful general-purpose ranking, but they only tangentially 
+attack the programmer's true goal: how would today's best programmers accomplish X in my language
+and my immediate coding environment?
+
+The idea of the World Wide Hack is to embrace the fact that constant reuse of code, techniques,
+and problem resolutions has become the main point. Our editing environment should apply Bret 
+Victor's ideas about "creating by reacting" and "recomposition" by automatically pulling in 
+open-source code examples that meet the developer's needs, much as chess software pulls
+in examples of public games that proceeded from the current position. The development environment 
+will find or generate code to meet the developer's needs, much as chess software shows potential 
+lines of play and their likely outcomes. For example, there might be a simple gesture that the 
+developer uses in the context of their source code to search the open-source world for a suitable 
+package, class, method, function, or code snippet for a particular purpose. We call this "Code Mining".
+(For more about Code Mining, see the exploratory work in [codemining-clojure](https://github.com/WorldWideHack/codemining-clojure/blob/master/doc/intro.md).)
+
+An Organizing Framework
+-----------------------
+
+As an organizing framework, we view software development as a collaborative search 
+through the space of useful software components by people and machines who take on the following five roles:
 
 - *Principal*: the primary author of a particular set of software components.
 
@@ -64,20 +92,8 @@ The Peer who created the original version of the component is alerted that a new
 implemented and tested. He sees that the Principal's open-source license allows him to incorporate
 the changes, and he likes them, so he incorporates them into his own version.
 
-We apply Bret Victor's ideas about "creating by reacting" and "recomposition" by automatically
-pulling in open-source code examples that meet the developer's needs, much as chess software pulls
-in examples of public games that proceeded from the current position. Machine Assistants (MAs)
-integrated into the development environment will find or generate code to meet the developer's
-needs, much as chess software shows potential lines of play and their likely outcomes. For example,
-there might be a simple gesture that the developer uses in the context of their source code to
-search the open-source world for a suitable package, class, method, function, or code snippet for a
-particular purpose. We call this "Code Mining".
-
-An MA might even show how to combine small numbers of existing functions to meet a particular goal
-in context of the developer's source code. It would then show examples in open source where those
-functions have been combined in a similar way. The intended feel is much like how chess software
-shows a potential strong line of play from the existing board position, either by reference to
-published games of strong players or by its own analysis.
+Capabilities Neeeded
+--------------------
 
 Over time, the following capabilities will be needed to support the World Wide Hack:
 
@@ -99,7 +115,6 @@ License
 
 All artifacts in this "manifesto" project (whether so marked or not) are Copyright (c) Dean Thompson and
 MIT licensed.
-
 
 History
 -------
