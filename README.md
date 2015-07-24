@@ -28,7 +28,7 @@ will find or generate code to meet the developer's needs, much as chess software
 lines of play and their likely outcomes. For example, there might be a simple gesture that the 
 developer uses in the context of their source code to search the open-source world for a suitable 
 package, class, method, function, or code snippet for a particular purpose. We call this "Code Mining".
-(For more about Code Mining, see the [codemining](https://github.com/WorldWideHack/codemining) repo.)
+(Code Mining is described further below. For implementation direction, see the [codemining](https://github.com/WorldWideHack/codemining) repo.)
 
 An Organizing Framework
 -----------------------
